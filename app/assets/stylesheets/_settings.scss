@@ -44,6 +44,7 @@
 // 1. Global
 // ---------
 
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -546,3 +547,29 @@ $topbar-padding: 0.5rem;
 $topbar-background: $light-gray;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
+
+
+
+
+$body-bg: #384047;
+$body-font-color: #fff;
+$body-font-family: "gotham-rounded", "Helvetica", Helvetica, Arial, sans-serif;
+$primary-color: #B18806;
+$header-font-color: #fff;
+$anchor-font-color: #ddd;
+$anchor-font-color-hover: #fff;
+$button-med: rem-calc(10);
+$input-bg-color: #E6E6E6;
+$label-padding: rem-calc(5 15);
+$label-font-sizing: rem-calc(14);
+
+
+$switch-active-color: $primary-color;
+$topbar-bg-color: rgba(255, 255, 255, 0);
+$topbar-height: 45px;
+$topbar-margin-bottom: 30px;
+$topbar-title-font-size: rem-calc(25);
+$topbar-link-bg-hover: $primary-color;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-padding: $topbar-height / 3;
+
