@@ -45,5 +45,6 @@ group :development do
   gem 'spring'
   gem 'compass'
   gem 'foundation-rails'
+  gem 'devise'
 end
 
