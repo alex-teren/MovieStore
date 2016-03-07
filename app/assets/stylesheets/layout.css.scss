@@ -24,13 +24,35 @@ body {
 }
 
 // Topbar items
-.top-bar-section ul li { background: transparent }
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.top-bar-section ul li { background: transparent !important}
+.right {
+  display: inline-block;
+}
+.top-bar { background: transparent !important}
+.left { 
+  background: transparent !important;
+  display: block;
+  float: left;
+}
 
+.title-area li {
+  display: block;
+  float: left;
+  margin-right: 30px;
+
+}
 // Forms
 .form-container {
   padding: 3% 3%;
   .switch > div {
-    position: relative;
-    top: -5px;
+    position: relative !important ;
+    top: -5px !important ; 
   }
 }
