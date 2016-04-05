@@ -56,3 +56,13 @@ ul {
     top: -5px !important ; 
   }
 }
+
+.user-session { background: transparent !important; padding: 7px }
+
+.user-session li {
+  display: inline-block;
+  position: relative;
+  vertical-align: center;
+  padding-right: 25px;
+  background: transparent !important;
+ }

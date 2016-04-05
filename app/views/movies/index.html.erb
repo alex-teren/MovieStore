@@ -2,7 +2,7 @@
 <div class="column">
   <ul class="movies-grid no-bullet row">
     <% @movies.each do |movie| %>
-      <li class="large-3 medium-4 small-12 column">
+      <li class="large-3 medium-6 small-12 column">
         <div class="movie-card padly">
           <%= link_to movie, class: "poster" do %>
             <%= image_tag movie.poster %>
